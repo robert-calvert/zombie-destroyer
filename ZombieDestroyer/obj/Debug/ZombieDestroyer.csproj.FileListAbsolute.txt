@@ -7,3 +7,18 @@ c:\users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\Zom
 c:\users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.csproj.GenerateResource.Cache
 c:\users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.exe
 c:\users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.pdb
+C:\Users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.DeathScreen.resources
+C:\Users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.StartScreen.resources
+C:\Users\robertcalvert\documents\visual studio 2015\Projects\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.HighScoresForm.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\bin\Debug\ZombieDestroyer.exe.config
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\bin\Debug\ZombieDestroyer.exe
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\bin\Debug\ZombieDestroyer.pdb
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.csprojResolveAssemblyReference.cache
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.DeathScreen.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.HighScoresForm.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.Properties.Resources.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.StartScreen.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.ZombieDestroyer.resources
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.csproj.GenerateResource.Cache
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.exe
+R:\Development\Visual C#\ZombieDestroyer\ZombieDestroyer\obj\Debug\ZombieDestroyer.pdb

@@ -85,7 +85,7 @@ namespace ZombieDestroyer
 
         private Bitmap GetByName(string name)
         {
-            Object resource = Properties.Resources.ResourceManager.GetObject(name);
+            object resource = Properties.Resources.ResourceManager.GetObject(name);
             return ((resource != null && resource is Bitmap) ? (Bitmap) resource : null);
         }
     }

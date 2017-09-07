@@ -47,11 +47,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnimatedImageSet.cs" />
+    <Compile Include="Bullet.cs" />
+    <Compile Include="DeathScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeathScreen.Designer.cs">
+      <DependentUpon>DeathScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Direction.cs" />
     <Compile Include="Entity.cs" />
+    <Compile Include="HighScore.cs" />
+    <Compile Include="HighScoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScoresForm.Designer.cs">
+      <DependentUpon>HighScoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistic.cs" />
     <Compile Include="Level.cs" />
     <Compile Include="Platform.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="StartScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartScreen.Designer.cs">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zombie.cs" />
     <Compile Include="ZombieDestroyer.cs">
       <SubType>Form</SubType>
@@ -61,6 +82,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DeathScreen.resx">
+      <DependentUpon>DeathScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScoresForm.resx">
+      <DependentUpon>HighScoresForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -71,6 +98,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="StartScreen.resx">
+      <DependentUpon>StartScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ZombieDestroyer.resx">
       <DependentUpon>ZombieDestroyer.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,7 +16,7 @@ namespace ZombieDestroyer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ZombieDestroyer());
+            Application.Run(new StartScreen());
         }
     }
 }

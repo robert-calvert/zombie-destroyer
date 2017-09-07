@@ -30,8 +30,8 @@ namespace ZombieDestroyer
             for (int i = 0; i < n; i++)
             {
                 int gapStart = random.Next(((int) (panel.Width / 10)), (panel.Width - 50));
-                platforms.Add(new Platform(50, (diff + 70), (gapStart - 50), PLATFORM_HEIGHT));
-                platforms.Add(new Platform((gapStart + 100), (diff + 70), (panel.Width - (gapStart + 100) - 50), PLATFORM_HEIGHT));
+                platforms.Add(new Platform(0, (diff + 70), (gapStart - 50), PLATFORM_HEIGHT));
+                platforms.Add(new Platform((gapStart + 100), (diff + 70), (panel.Width - (gapStart + 100)), PLATFORM_HEIGHT));
                 diff += buffer;
             }
         }

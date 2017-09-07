@@ -10,10 +10,12 @@ namespace ZombieDestroyer
     class Player : Entity
     {
         private bool falling;
+        private int ammo;
 
         public Player(AnimatedImageSet animation, int x, int y) : base(animation, x, y)
         {
-            
+            this.falling = false;
+            this.ammo = 50;
         }
 
         /*
@@ -40,7 +42,7 @@ namespace ZombieDestroyer
         }
 
         /*
-         * 
+         * Update the location of the player. 
          */
 
         public void SetLocation(Point point)
@@ -48,14 +50,49 @@ namespace ZombieDestroyer
             rectangle.Location = point;
         }
 
+        /*
+         * Returns true if the player is falling. 
+         */
+
         public bool IsFalling()
         {
             return falling;
         }
 
+        /*
+         * Update the falling status of the player. 
+         */
+
         public void SetFalling(bool falling)
         {
             this.falling = falling;
+        }
+
+        /*
+         * Return the direction the player is currently moving. 
+         */
+
+        public Direction GetDirection()
+        {
+            return animation.GetDirection();
+        }
+
+        /*
+         * Returns the number of bullets the player has remaining in their weapon. 
+         */
+
+        public int GetAmmo()
+        {
+            return ammo;
+        }
+
+        /*
+         * Updates the bullet count for this players weapon. 
+         */
+
+        public void SetAmmo(int ammo)
+        {
+            this.ammo = ammo;
         }
     }
 }
